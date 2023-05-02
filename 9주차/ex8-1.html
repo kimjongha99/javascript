@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF8">
+<script src="js/jquery-3.6.0.min.js"></script>
+<script>
+
+$(document).ready(function() {
+    $("button").click(function() {
+        $("p").css("color", "red");
+});
+});
+
+
+$(document).ready(function() {
+    alert("jQuery is working!");
+});
+
+
+$(document).ready(function(){
+    $("#btn1").click(function(){
+        var content=$("#box").text();
+        alert(content);
+    })
+
+    $("#btn2").click(function() {
+var content = $("#box").html();
+alert(content);
+});
+});
+
+</script>
+
+</head>
+<body>
+<p>
+안녕하세요 .
+</p>
+반갑습니다 .
+<button>글자 색상 변경하기 </button>
+
+
+<div id="box">
+    <h3>
+    요소 내용 가져오기 </h3>
+    <p>text()는 요소의 텍스트만 가져오고 , 은
+    HTML 태그도 같이 가져옵니다 .</p>
+    </div>
+    <button id="btn1">텍스트 가져오기 </button>
+    <button id="btn2">HTML가져오기 </button>
+</body>
+</html>

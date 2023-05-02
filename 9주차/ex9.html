@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("div .row:even").css("background-color", "yellow");
+        $("div .row:odd").css("background-color", "skyblue");
+        $("div tr:first").css("background color", "gray");
+});
+;
+</script>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <h2>:even/:odd
+    필터 </h2>
+    <table>
+        <tr><th>
+        인덱스 번호 </th><th>1 열 </th><th>2 열 </th></tr>
+        <tr class="row"><td>행 인덱스 : 0</td><td>1 행 1 열 </td><td>1 행 2 열 </td></tr>
+        <tr class="row"><td>행 인덱스 : 1</td><td>2행 1 열 </td><td>1 행 2 열 </td></tr>
+        <tr class="row"><td>행 인덱스 : 2</td><td>3 행 1 열 </td><td>1 행 2 열 </td></tr>
+        <tr class="row"><td>행 인덱스 : 3</td><td>4 행 1 열 </td><td>1 행 2 열 </td></tr>
+        <tr class="row"><td>행 인덱스 : 4</td><td>5 행 1 열 </td><td>1 행 2 열 </td></tr>
+        <tr class="row"><td>행 인덱스 : 5</td><td>6 행 1 열 </td><td>1 행 2 열 </td></tr>
+        <tr class="row"><td>행 인덱스 : 6</td><td>7 행 1 열 </td><td>1 행 2 열 </td></tr>
+    </table>
+</div>
+    </body>
+</html>
+
