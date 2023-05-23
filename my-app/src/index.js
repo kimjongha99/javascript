@@ -3,13 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Library from './Library';
-import Clock  from './Clock';
+// import Library from './Library';
+// import Clock  from './Clock';
+// import Comment from './Comment';
+// import CommentList  from './CommentList';
+
+import NotificationList from './NotificationList';
+
+// import Notification from './Notification';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Clock />
-
+  <NotificationList />
   </React.StrictMode>
 );
 

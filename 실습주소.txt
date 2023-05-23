@@ -1,1 +1,6 @@
 https://github.com/soaple/first-met-react-practice
+
+
+
+학교 컴퓨터 
+보안 설정. https://dog-developers.tistory.com/183
