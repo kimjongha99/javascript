@@ -1,21 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-//import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+//import App from './App';
+// import reportWebVitals from './reportWebVitals';
 // import Library from './Library';
 // import Clock  from './Clock';
 // import Comment from './Comment';
 // import CommentList  from './CommentList';
-
-import NotificationList from './NotificationList';
-
+// import NotificationList from './NotificationList';
 // import Notification from './Notification';
-
+//import Accommodate from './Accommodate';
+import ConfirmButton from './ConfirmButton'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <NotificationList />
+  <ConfirmButton />
   </React.StrictMode>
 );
 
